@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libaries", "Libaries", "{347803F4-F4EA-46E6-9C25-7EA28B2AA4AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{E733C8E8-A42E-49F5-89A8-60257A21D38F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skills", "Skills", "{5BB50E3B-648F-494E-96F5-FF7C80D35129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agents", "Agents", "{005B4B92-0210-49CC-A478-D0599E21E032}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6FD65052-9DEC-4BFA-8EBE-1BB72C1A2DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundServices", "BackgroundServices", "{C99C2269-D460-41DB-8BC1-35B379B8B64F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseAssistant.Skills.CalendarSkill", "Skills\EnterpriseAssistant.Skills.CalendarSkill\EnterpriseAssistant.Skills.CalendarSkill.csproj", "{8E9C1EDD-1210-47F9-957F-1A575C443BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseAssistant.Agents.RootAgent", "Agents\EnterpriseAssistant.Agents.RootAgent\EnterpriseAssistant.Agents.RootAgent.csproj", "{105097AE-A09A-48B3-8A82-11CD75E913C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9C1EDD-1210-47F9-957F-1A575C443BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9C1EDD-1210-47F9-957F-1A575C443BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9C1EDD-1210-47F9-957F-1A575C443BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9C1EDD-1210-47F9-957F-1A575C443BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105097AE-A09A-48B3-8A82-11CD75E913C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105097AE-A09A-48B3-8A82-11CD75E913C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105097AE-A09A-48B3-8A82-11CD75E913C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105097AE-A09A-48B3-8A82-11CD75E913C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E733C8E8-A42E-49F5-89A8-60257A21D38F} = {347803F4-F4EA-46E6-9C25-7EA28B2AA4AC}
+		{C99C2269-D460-41DB-8BC1-35B379B8B64F} = {6FD65052-9DEC-4BFA-8EBE-1BB72C1A2DB9}
+		{8E9C1EDD-1210-47F9-957F-1A575C443BA5} = {5BB50E3B-648F-494E-96F5-FF7C80D35129}
+		{105097AE-A09A-48B3-8A82-11CD75E913C2} = {005B4B92-0210-49CC-A478-D0599E21E032}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37A275FB-8D03-40DF-9AA7-3393887DB137}
+	EndGlobalSection
+EndGlobal
